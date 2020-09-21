@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar- No Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav role="navigation" class="navbar">
+        <div class="nav-header">
+            <div class="nav-brand">
+                <!-- Logo -->
+                <a href="#"><img src="./" alt="Logo"></a>
+
+                <!-- Title -->
+                <!-- <div class="nav-title"></div> -->
+            </div>
+        </div>
+
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="toggle-menu-show"><i class="fas fa-bars"></i></label>
+
+        <div class="navigation">
+            <ul class="nav-links">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                <label for="toggler" class="toggle-menu-hide"><i class="fas fa-times"></i></label>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
